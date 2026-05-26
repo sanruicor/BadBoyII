@@ -229,6 +229,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8718474056233625163, guid: df1e6454e5989f04dbb238b228548b88, type: 3}
+      propertyPath: rifleshot
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b0b105a20c744648bae4ce4b2a5499f, type: 3}
+    - target: {fileID: 8718474056233625163, guid: df1e6454e5989f04dbb238b228548b88, type: 3}
       propertyPath: shotPoint
       value: 
       objectReference: {fileID: 2138342646}
