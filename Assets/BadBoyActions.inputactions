@@ -1,0 +1,97 @@
+{
+    "version": 1,
+    "name": "BadBoyActions",
+    "maps": [
+        {
+            "name": "BadBoy",
+            "id": "79a2bc7b-54b9-4545-8454-b0403c51889e",
+            "actions": [
+                {
+                    "name": "HorizontalMovement",
+                    "type": "Value",
+                    "id": "49a4bd31-0a8c-44e8-b514-577cc8d326ca",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Shot",
+                    "type": "Button",
+                    "id": "bd331ab2-b10f-47c6-ae00-163c92d87460",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shield",
+                    "type": "Button",
+                    "id": "d6fdeea9-d72d-420c-9080-be8eb79f1b25",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "6222194e-5427-42b6-961e-129beba27be3",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HorizontalMovement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "17710c97-5197-435d-b0f3-42907ba8a20e",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HorizontalMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "976bb161-41aa-4e5a-a63f-cca293c60237",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HorizontalMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "da0487fc-e62b-4ff1-94c0-b2dba898bf49",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "661c6fe0-8dc4-4b81-8465-168332b1c7d3",
+                    "path": "<Keyboard>/ctrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shield",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
